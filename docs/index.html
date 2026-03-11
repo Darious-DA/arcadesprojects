@@ -90,20 +90,6 @@
       color: var(--ink-soft);
       letter-spacing: .12em;
     }
-    .title-frame.shrink { padding: 14px 12px; border-width: 4px; }
-    .title-frame.shrink .title-cn { font-size: 18px; }
-    .visitor-badge {
-      position: fixed;
-      top: 6px;
-      right: 10px;
-      font-size: 11px;
-      color: var(--coffee);
-      background: rgba(245,240,225,.7);
-      border: 1px solid rgba(92,64,51,.3);
-      padding: 2px 6px;
-      border-radius: 6px;
-      z-index: 20;
-    }
     .sheet {
       margin-top: 22px;
       background: #fff;
@@ -199,13 +185,7 @@
     .list li:hover { border-bottom: 1px solid rgba(92,64,51,.5); }
     a.link:hover { color: var(--warm-red); }
     .list li:hover a.link::before { animation: wobble .4s ease both; }
-    .view-inline {
-      font-size: 12px;
-      color: var(--coffee);
-      opacity: .9;
-      white-space: nowrap;
-      padding-right: 6px;
-    }
+    
     .note {
       color: rgba(92,64,51,.8);
       font-size: 14px;
@@ -310,15 +290,13 @@
     @media (max-width: 768px) {
       .wrap { padding: 16px; }
       .sections { grid-template-columns: 1fr; }
-      .visitor-badge { font-size: 10px; top: 6px; right: 8px; }
     }
   </style>
 </head>
 <body>
-  <div class="visitor-badge">总访客：<span id="totalVisitors">--</span></div>
   <div class="wrap">
     <header class="title-frame">
-      <div class="title-cn" id="titleType" data-text="Walter Benjamin |《拱廊计划》文献汇编与翻译">Walter Benjamin |《拱廊计划》文献汇编与翻译</div>
+      <div class="title-cn">Walter Benjamin |《拱廊计划》文献汇编与翻译</div>
       <div class="title-en">Arcades Project | Documents & Translations</div>
     </header>
 
@@ -339,24 +317,19 @@
         <div class="group-title">《拱廊计划》重要章节翻译</div>
         <ul class="list">
           <li>
-            <a class="link" href="arcade\benjamin-i-das-Interieur-die Spur.pdf" target="_blank" data-key="arcade\benjamin-i-das-Interieur-die Spur.pdf">卷宗 I：复制技术、石印术（PDF）</a>
-            <span class="view-inline">浏览量：<em>0</em></span>
+            <a class="link" href="arcade\benjamin-i-das-Interieur-die Spur.pdf" target="_blank">卷宗 I：复制技术、石印术（PDF）</a>
           </li>
           <li>
-            <a class="link" href="arcade/benjamin-j-baudelaire.pdf" target="_blank" data-key="arcade/benjamin-j-baudelaire.pdf">卷宗 J：波德莱尔（PDF）</a>
-            <span class="view-inline">浏览量：<em>0</em></span>
+            <a class="link" href="arcade/benjamin-j-baudelaire.pdf" target="_blank">卷宗 J：波德莱尔（PDF）</a>
           </li>
           <li>
-            <a class="link" href="arcade/benjamin-t-beleuchtungsarten.pdf" target="_blank" data-key="arcade/benjamin-t-beleuchtungsarten.pdf">卷宗 T：照明的形式（PDF）</a>
-            <span class="view-inline">浏览量：<em>0</em></span>
+            <a class="link" href="arcade/benjamin-t-beleuchtungsarten.pdf" target="_blank">卷宗 T：照明的形式（PDF）</a>
           </li>
           <li>
-            <a class="link" href="arcade/benjamin-x-marx.pdf" target="_blank" data-key="arcade/benjamin-x-marx.pdf">卷宗 X：马克思（PDF）</a>
-            <span class="view-inline">浏览量：<em>0</em></span>
+            <a class="link" href="arcade/benjamin-x-marx.pdf" target="_blank">卷宗 X：马克思（PDF）</a>
           </li>
           <li>
-            <a class="link" href="arcade/benjamin-y-die-photographic.pdf" target="_blank" data-key="arcade/benjamin-y-die-photographic.pdf">卷宗 Y：照相术（PDF）</a>
-            <span class="view-inline">浏览量：<em>0</em></span>
+            <a class="link" href="arcade/benjamin-y-die-photographic.pdf" target="_blank">卷宗 Y：照相术（PDF）</a>
           </li>
         </ul>
         <div class="note"></div>
@@ -367,8 +340,7 @@
             <div class="body">
               <ul>
                 <li>
-                  <a href="papers\zhanwei.papers.pdf" target="_blank" data-key="papers\zhanwei.papers.pdf">示例论文翻译稿（PDF）</a>
-                  <span class="view-inline">浏览量：<em>0</em></span>
+                  <a href="papers\zhanwei.papers.pdf" target="_blank">示例论文翻译稿（PDF）</a>
                 </li>
               </ul>
             </div>
@@ -378,12 +350,10 @@
             <div class="body">
               <ul>
                 <li>
-                  <a href="dialectic\Buck-Morss,S-The-Dialectics-of-Seeing-205-227.pdf" target="_blank" data-key="dialectic\Buck-Morss,S-The-Dialectics-of-Seeing-205-227.pdf">Buck-Morss, S. (205-227) 看的辩证法（PDF）</a>
-                  <span class="view-inline">浏览量：<em>0</em></span>
+                  <a href="dialectic\Buck-Morss,S-The-Dialectics-of-Seeing-205-227.pdf" target="_blank">Buck-Morss, S. (205-227) 看的辩证法（PDF）</a>
                 </li>
                 <li>
-                  <a href="dialectic\Buck-Morss,S-The-Dialectics-of-Seeing-228-252.pdf" target="_blank" data-key="dialectic\Buck-Morss,S-The-Dialectics-of-Seeing-228-252.pdf">Buck-Morss, S. (228-252) 看的辩证法（PDF）</a>
-                  <span class="view-inline">浏览量：<em>0</em></span>
+                  <a href="dialectic\Buck-Morss,S-The-Dialectics-of-Seeing-228-252.pdf" target="_blank">Buck-Morss, S. (228-252) 看的辩证法（PDF）</a>
                 </li>
               </ul>
             </div>
@@ -393,8 +363,7 @@
             <div class="body">
               <ul>
                 <li>
-                  <a href="team\zhanwei.team-report.pdf" target="_blank" data-key="team\zhanwei.team-report.pdf">示例研究团队报告（PDF）</a>
-                  <span class="view-inline">浏览量：<em>0</em></span>
+                  <a href="team\zhanwei.team-report.pdf" target="_blank">示例研究团队报告（PDF）</a>
                 </li>
               </ul>
             </div>
@@ -423,35 +392,5 @@
     })();
   </script>
   
-  <script>
-    ;(function(){
-      var NS = 'gljh_academic_v1';
-      var api = 'https://api.countapi.xyz';
-      function encKey(v){ try { return encodeURIComponent(btoa(v)); } catch(e){ return encodeURIComponent(v); } }
-      function set(el, val){ if (el) el.textContent = String(val||0); }
-      function get(key){ return fetch(api + '/get/' + NS + '/' + key, {mode:'cors'}).then(r=>r.json()); }
-      function hit(key){ return fetch(api + '/hit/' + NS + '/' + key, {mode:'cors'}).then(r=>r.json()); }
-      hit('visitors').then(function(d){ set(document.getElementById('totalVisitors'), d.value); }).catch(function(){});
-      document.querySelectorAll('a.link[data-key], .section-card .body a[data-key]').forEach(function(a){
-        var k = encKey(a.getAttribute('data-key'));
-        var container = a.parentElement;
-        var em = container && container.querySelector('.view-inline em');
-        if (em) {
-          get(k).then(function(d){ set(em, d.value); }).catch(function(){ set(em, 0); });
-        }
-        a.addEventListener('click', function(){
-          hit(k).then(function(d){ if (em) set(em, d.value); }).catch(function(){});
-        }, {passive:true});
-      });
-      document.querySelectorAll('.section-card.clickable').forEach(function(sec){
-        var target = sec.getAttribute('data-open');
-        if (!target) return;
-        sec.addEventListener('click', function(e){
-          if (e.target.closest('a')) return;
-          window.open(target, '_blank');
-        });
-      });
-    })();
-  </script>
 </body>
 </html>
